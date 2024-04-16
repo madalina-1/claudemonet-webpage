@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <title>Claude Monet</title>
+    <style>
+    
+      body {
+         background: #F4F1FE;
+        }
+      h1 {
+        text-align: center;
+        color: #333;
+        font-style: bold;
+        font-family: cursive;
+        font-size: 40px;
+        line-height: 1.2em;
+        font-weight: 600;
+        letter-spacing: 1px;
+      }
+
+      h2 {
+        text-align: center;
+        color: #333;
+        padding: 0 0 10px;
+        font-size: 17px;
+        font-family: AdobeGaramondPro, serif;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 1.40em;
+        max-width: 600px;
+        margin: 0 auto;
+        
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        border-radius: 10px;
+      }
+      p {
+        line-height: 1.5;
+        font-size: 16px;
+        margin: 20px 0px 20px;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+      ul{
+        list-style-type: none;
+        display: block;
+      }
+      ul li::before{
+        content:"👨🏻‍🎨" ;
+        margin-right: 5px;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        background: #a6b1e1;
+        color: #ffffff;
+        font-size: 20px;
+        font-family: "Times New Roman", Times, serif;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgb(94, 99, 181, 0.5);
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        opacity: 0.9;
+        cursor: pointer;
+        transform: translateY(-2px);
+      }
+      .project {
+        display: block;
+        max-width: 100%;
+        margin: 100px 200px;
+        padding: 10px 100px;
+        text-size-adjust: 100%;
+        background-color: #ffffff;
+        border-radius: 30px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+      }
+      .artist-header {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        display: block;
+      }
+      .heading {
+        margin: 0 auto;
+        padding-inline: 50px;
+      }
+      .artist-info {
+        text-align: center;
+        margin-top: 10px;
+      }
+      .portrait {
+        display: block;
+        border-radius: 80px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      }
+      .body {
+        display: block;
+        padding: 20px 40px;
+        margin: 0 auto;
+        max-width: 600px;
+      }
+      .quote-carousel {
+        position: relative;
+        margin-bottom: 30px;
+        height: auto;
+        max-height: 100px;
+        overflow: visible;
+      }
+      .quote-slide p {
+        text-align: center;
+        font-size: 16px;
+        font-family: cursive;
+        line-height: 1.5;
+        color: #c58bc1;
+      } 
+      .slick-slider {
+        display: block;
+        box-sizing: border-box;
+        user-select: none;
+        transition: opacity 0.5s ease-in-out;
+      }
+      .slick-list {
+        height: 70px;
+      }
+      .more-info {
+        color: #333;
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 10px;
+      }
+      .garden {
+        color: #9faddc;
+        text-decoration: none;
+        font-size: 13px;
+        font-family: monospace;
+      }
+      .garden:hover {
+        text-decoration: underline;
+        margin-top: 0 auto;
+      }
+      .paintings{
+        color: #9faddc;
+        text-decoration: none;
+        font-size: 13px;
+        font-family: monospace;
+      }
+      .paintings:hover{
+        text-decoration: underline;
+        margin-top: 0 auto;
+      }
+      .author {
+        text-align: center;
+        font-family: monospace;
+        font-size: 8px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="project">
+      <div class="artist-header">
+          
+           <img
+                class="portrait"
+                alt=""
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/122/901/original/Portrait.jpeg?1712931509"
+                width="160"
+                height="160"
+            />
+        <div class="artist-info">
+          <h1 class="heading">Oscar-Claude Monet</h1>
+        </div>
+      </div>
+
+      <h2>Welcome to the enchanting world of Claude Monet, where every
+          brushstroke tells a story of passion, innovation, and boundless
+          creativity.</h2>
+
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/122/900/original/Claude_Monet2.jpeg?1712930976"
+        alt="Monet in his garden"
+        width="600"
+      />
+      <div class="body">
+        
+        <p>
+          🪷 Claude Monet was born on November 14, 1840, in the coastal town of
+          Le Havre, France. It was here that his artistic journey began,
+          eventually leading him to Paris, where he would become a pioneering
+          figure in the Impressionist movement.
+        </p>
+        <p>
+          🪷 Monet's groundbreaking work, "Impression, Sunrise," exhibited in
+          1874, is credited with giving rise to the Impressionist movement. With
+          its loose brushstrokes and emphasis on capturing the transient effects
+          of light and atmosphere, the painting challenged traditional artistic
+          conventions and laid the foundation for a new era in art.
+        </p>
+        <p>
+          🪷 Monet's love for nature and his deep connection to his surroundings
+          are beautifully encapsulated in his famous words about his beloved
+          garden at Giverny: "My garden is my most beautiful masterpiece." With
+          its vibrant colors, tranquil ponds, and lush foliage, Giverny became a
+          source of endless inspiration for the artist.
+        </p>
+        <p>
+          🪷 In describing his passion for his garden, Monet once said, "I must
+          have flowers, always, and always." His meticulous attention to detail
+          and his ability to capture the essence of nature in his paintings
+          reflect his profound reverence for the beauty of the natural world.
+        </p>
+        <p>
+          🪷 Monet's garden at Giverny served as both a sanctuary and a boundless
+          source of creativity, inspiring some of his most iconic works of art.
+          As we explore the enchanting landscapes of Giverny, we are reminded of
+          Monet's enduring legacy as a visionary artist and his timeless
+          appreciation for the wonders of nature.
+        </p>
+
+        <div class="quote-carousel">
+          <div class="quote-slide">
+            <p>"My garden is my most beautiful masterpiece." - Claude Monet</p>
+          </div>
+          <div class="quote-slide">
+            <p>"I must have flowers, always and always." - Claude Monet</p>
+          </div>
+          <div class="quote-slide">
+            <p>“I would like to paint the way a bird sings.” ― Claude Monet</p>
+            </div>
+            <div class="quote-slide">
+              <p>
+                “Everyday I discover more and more beautiful things. It's enough
+                to drive one mad. I have such a desire to do everything, my head
+                is bursting with it.” ― Claude Monet
+              </p> </div>
+            <div class="quote-slide">
+                <p>
+                    “I don't think I'm made for any earthly kind of pleasure.” ― Claude Monet
+                </p>
+            </div>
+          </div>
+        <p class="more-info">
+            For a deeper dive into the artist's world, explore further at:
+        </p>
+        <ul>
+            <li>
+        <a
+          href="https://www.youtube.com/watch?v=hvwQVFnbHng"
+          target="_blank"
+          class="garden"
+        >
+          How Monet's Garden Inspired His Greatest Achievement
+        </a>
+        </li>
+        <li>
+        <a
+          href="https://www.claude-monet.com/paintings.jsp"
+          target="_blank"
+          class="paintings"
+        >
+          Famous Paintings by Claude Monet
+        </a>
+        </li>
+        </ul>
+      </div>
+      <button class="book-button">🎨 Book an Art Class</button>
+      <p class="author">This page was built by Madalina Cristina Curtean</p>
+    </div>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $(".quote-carousel").slick({
+          dots: false,
+          infinite: true,
+          speed: 500,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 3500,
+          adaptiveHeight: true,
+        });
+      });
+      function book() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email address?");
+
+        alert(
+          "Thank you, " +
+            name +
+            "! Your passion for art is inspiring. We'll reach out to you soon to arrange your class! 🖼️"
+        );
+      }
+
+      let bookButton = document.querySelector(".book-button");
+      bookButton.addEventListener("click", book);
+    </script>
+  </body>
+</html>
