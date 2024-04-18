@@ -3,7 +3,7 @@ Claude Monet Webpage
 
 # Claude Monet Tribute Page
 
-Welcome to the Claude Monet Tribute Page! This webpage celebrates the life and work of the renowned French artist, Claude Monet. From his groundbreaking Impressionist paintings to his iconic garden at Giverny, explore the enchanting world of Monet through captivating images and insightful text.
+Welcome to the Claude Monet Tribute Page! This webpage celebrates the life and work of the renowned French artist, Claude Monet.
 
 ## Features
 
@@ -15,7 +15,7 @@ Welcome to the Claude Monet Tribute Page! This webpage celebrates the life and w
 
 ## How to Use
 
-Simply open the HTML file in your web browser to start exploring the Claude Monet Tribute Page.
+Simply download and open the HTML file in your web browser to start exploring the Claude Monet Tribute Page.
 
 ## Credits
 
